@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
 
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
@@ -38,7 +38,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022. Designed By: <a href="https://www.electrovilla.com" rel="noreferrer" target="_blank">ElectroVilla</a>, All Rights reserved</p>
+      <p className="p__opensans">2022. Designed By: <a href="https://www.smartsoftek.com" rel="noreferrer" target="_blank">Smart Softek</a>, All Rights reserved</p>
     </div>
   </div>
 );
